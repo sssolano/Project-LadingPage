@@ -1,0 +1,47 @@
+.containerPartOne {
+    background-color: #1f2937;
+    padding: 20px;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.li{
+    float: right;
+    justify-content: space-around;
+}
+
+.HeaderLogo {
+    size: 24px;
+    color: #f9faf8;
+}
+
+.headerLink {
+    size: 18px;
+    color: #e5e7eb;
+}
+
+.MainText {
+    size: 48px;
+    color: #f9faf8;
+}
+
+.secondaryText {
+    size: 18px;
+    color: #e5e7eb;
+}
+
+.signUpbutton {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 5px;
+    border-color: #3882f6;
+}
+
+.containerHeader{
+}
