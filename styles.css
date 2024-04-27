@@ -1,6 +1,6 @@
 .HeadercontainerPartOne {
     background-color: #1f2937;
-    padding: 25px;
+    padding: 40px;
     height: 400px;
 }
 
@@ -13,6 +13,7 @@
     size: 24px;
     color: #f9faf8;
     font-weight: 900;
+    font-weight: bolder;
 }
 
 .ul {
@@ -33,7 +34,8 @@ a {
     max-width: 300px;
     height: 200px;
     flex-wrap: wrap;
-    justify-self: end;
+    justify-content: center;
+    display: flex;
 }
 
 .MainText {
@@ -53,5 +55,12 @@ a {
     border-color: #3882f6;
 }
 
+.placeholder {
+    width: 300;
+    height: 300;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: image('Imagenes/ImagenPokemon.jpeg');
+}
 
 
