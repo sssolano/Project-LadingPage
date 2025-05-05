@@ -39,14 +39,6 @@ body {
     color: #e5e7eb;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    padding: 16px;
-    background-color: #1f2937;
-    gap: 15px;
-}
-
 .intro-container {
     display: flex;
     height: 55vh;
@@ -63,7 +55,7 @@ body {
 .left-content {
     max-width: 25%;
     display: block;
-    margin-left: 410px;
+    margin-left: 406px;
     margin-top: 100px;
     justify-content: left;
 }
@@ -178,4 +170,59 @@ body {
     font-size: 18px;
     font-weight: bold;
     color: #1f2937;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+}
+
+
+.blue-box1 {
+    width: 1300px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.call-to-action{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.subtext1 {
+    font-size: 18px;
+    color: #e5e7eb;
+    overflow-wrap: break-word;
+    margin-top: 0%;
+}
+
+
+.sign_up-button1 {
+    background-color: transparent;
+    border-radius: 6px;
+    color: #f9faf8;
+    width: 115px;
+    height: 30px;
+    border: #f9faf8 solid 2px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 38px 16px;
+    background-color: #1f2937;
+    gap: 15px;
+}
+
+.footer-logo{
+    color: #e5e7eb;
+    font-size: 18px;
 }
